@@ -1,0 +1,11 @@
+Pieces\Sticker.class
+Cube\MiddleRow.class
+Cube\Cube.class
+Cube\FaceRow.class
+Pieces\Piece.class
+Pieces\Corner.class
+Pieces\Edge.class
+Pieces\Direction.class
+Pieces\Color.class
+Pieces\Rotation.class
+Pieces\Middle.class
