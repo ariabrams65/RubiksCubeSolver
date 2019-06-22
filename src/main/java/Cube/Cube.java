@@ -18,4 +18,17 @@ public class Cube {
     public void up(Rotation rotation) {
         topRow.rotate(rotation);
     }
+    
+    public void down(Rotation rotation) {
+        if (rotation == Rotation.NORMAL) {
+            bottomRow.rotate(Rotation.PRIME);
+            
+        } else {
+            bottomRow.rotate(Rotation.NORMAL);
+        }
+    }
+    
+    public void front(Rotation rotation) {
+        
+    }
 }
